@@ -1,0 +1,6 @@
+Flask
+Flask-Dance
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Twilio

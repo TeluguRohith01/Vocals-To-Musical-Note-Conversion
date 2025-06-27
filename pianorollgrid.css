@@ -1,0 +1,40 @@
+.piano-roll-grid {
+  background-color: #181818;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-row {
+  display: flex;
+  align-items: center;
+}
+
+.note-label {
+  width: 50px;
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 1px;
+  cursor: pointer;
+  background-color: #252525;
+  transition: background-color 0.3s;
+}
+
+.grid-cell.active {
+  background-color: #3a7cff;
+}
